@@ -1,4 +1,4 @@
-[############################## Template ##############################]
+############################## Template ##############################
 [Source]
 (John Smith et al., 2024)
 https://www.loremipsum.net
@@ -6,4 +6,4 @@ https://www.loremipsum.net
 Lorem Ipsum:
 [Historical Context]
 Lorem Ipsum:
-[############################## Template ##############################]
+############################## Template ##############################
