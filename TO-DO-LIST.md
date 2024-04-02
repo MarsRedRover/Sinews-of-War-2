@@ -1,5 +1,15 @@
 [Mars To Do]
+Initialize vanilla epidemics into SoW epidemics
 
+Clan tax collection for imperial decay
+
+Clan tax collection for tax collector aptitude for food/manpower rate%
+
+Background in trade node struggle
+
+Tooltip bugs
+
+Imperial decay unaffecting struggle factions
 
 
 [Vertimnus To Do]
