@@ -28,6 +28,22 @@ demd_add_tradition_bonuses = {
 	}
 
 	if = {
+		limit = { has_cultural_tradition = tradition_hereditary_hierarchy }
+		change_variable = { name = vigor_cultural_production_mult add = 2.00 }
+		change_variable = { name = public_order_cultural_production_mult add = 0.03 }
+	}
+
+	if = {
+		limit = { has_cultural_tradition = tradition_esteemed_hospitality }
+		change_variable = { name = vigor_cultural_production_mult add = 2.00 }
+	}
+
+	if = {
+		limit = { has_cultural_tradition = tradition_wedding_ceremonies }
+		change_variable = { name = vigor_cultural_production_mult add = 3.00 }
+	}
+
+	if = {
 		limit = { has_cultural_tradition = tradition_culture_blending }
 		change_variable = { name = vigor_cultural_production_mult add = -5.00 }
 	}
@@ -54,24 +70,18 @@ demd_add_tradition_bonuses = {
 	}
 
 	if = {
-		limit = { has_cultural_tradition = tradition_hereditary_hierarchy }
-		change_variable = { name = vigor_cultural_production_mult add = 2.00 }
-		change_variable = { name = public_order_cultural_production_mult add = 0.03 }
-	}
-
-	if = {
-		limit = { has_cultural_tradition = tradition_esteemed_hospitality }
-		change_variable = { name = vigor_cultural_production_mult add = 2.00 }
-	}
-
-	if = {
-		limit = { has_cultural_tradition = tradition_wedding_ceremonies }
-		change_variable = { name = vigor_cultural_production_mult add = 3.00 }
-	}
-
-	if = {
 		limit = { has_cultural_tradition = tradition_byzantine_succession }
 		change_variable = { name = vigor_cultural_production_mult add = -4.00 }
+	}
+
+	if = {
+		limit = { has_cultural_tradition = tradition_practiced_pirates }
+		change_variable = { name = trade_power_cultural_production_mult add = -0.15 }
+	}
+
+	if = {
+		limit = { has_cultural_tradition = tradition_artisans }
+		change_variable = { name = trade_value_cultural_production_mult add = 0.10 }
 	}
 
 	if = {
@@ -87,16 +97,6 @@ demd_add_tradition_bonuses = {
 	if = {
 		limit = { has_cultural_tradition = tradition_modest }
 		change_variable = { name = vigor_cultural_production_mult add = 2.00 }
-	}
-
-	if = {
-		limit = { has_cultural_tradition = tradition_practiced_pirates }
-		change_variable = { name = trade_power_cultural_production_mult add = -0.15 }
-	}
-
-	if = {
-		limit = { has_cultural_tradition = tradition_artisans }
-		change_variable = { name = trade_value_cultural_production_mult add = 0.10 }
 	}
 
 	if = {
